@@ -43,6 +43,10 @@ module.exports = {
             'before': true,
             'after': true
         }],
-        'space-before-blocks': ['error', 'always']
+        'space-before-blocks': ['error', 'always'],
+        'no-unused-vars': ['error', {
+            'vars': 'all',
+            'args': 'none'
+        }]
     }
 };
