@@ -48,6 +48,7 @@ module.exports = {
             'vars': 'all',
             'args': 'none'
         }],
-        'no-nested-ternary': ['error']
+        'no-nested-ternary': ['error'],
+        'no-unneeded-ternary': ['error']
     }
 };
