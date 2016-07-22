@@ -11,11 +11,19 @@ $ npm install --save-dev eslint eslint-config-dalee
 
 ## Usage
 
-Create a eslint configuration file that extends the package (`.eslintrc.json` for example):
+Create a `eslint` configuration file that extends the package (`.eslintrc.json` for example):
 
 ```
 {
     "extends": "eslint-config-dalee"
+}
+```
+
+By default it lints against `es5` rules. To enable `es6` rules (inheriting `es5`) use:
+
+```
+{
+    "extends": "eslint-config-dalee/es6"
 }
 ```
 

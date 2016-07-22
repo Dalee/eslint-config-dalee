@@ -21,6 +21,8 @@
     "javascript"
   ],
   "files": [
+    "es5.js",
+    "es6.js",
     "index.js"
   ],
   "bugs": {
@@ -37,5 +39,8 @@
   },
   "peerDependencies": {
     "eslint": ">=2.7.0"
+  },
+  "dependencies": {
+    "just-extend": "^1.1.19"
   }
 }
