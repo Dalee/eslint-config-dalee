@@ -49,6 +49,9 @@ module.exports = {
             'args': 'none'
         }],
         'no-nested-ternary': ['error'],
-        'no-unneeded-ternary': ['error']
+        'no-unneeded-ternary': ['error'],
+        'max-len': ['error', {
+            'code': 150
+        }]
     }
 };
