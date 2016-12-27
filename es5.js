@@ -52,6 +52,11 @@ module.exports = {
         'no-unneeded-ternary': ['error'],
         'max-len': ['error', {
             'code': 150
+        }],
+        'key-spacing': ['error', {
+            'beforeColon': false,
+            'afterColon': true,
+            'mode': 'strict'
         }]
     }
 };
