@@ -57,6 +57,7 @@ module.exports = {
             'beforeColon': false,
             'afterColon': true,
             'mode': 'strict'
-        }]
+        }],
+        'dot-notation': ['error']
     }
 };
