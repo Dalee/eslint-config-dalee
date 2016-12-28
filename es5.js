@@ -58,6 +58,8 @@ module.exports = {
             'afterColon': true,
             'mode': 'strict'
         }],
-        'dot-notation': ['error']
+        'dot-notation': ['error', {
+            'allowKeywords': false
+        }]
     }
 };
